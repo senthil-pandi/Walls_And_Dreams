@@ -1,0 +1,358 @@
+/*
+Template Name:Interior Hub
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/*********************center_home****************/
+
+.mySlides {
+    display: none;
+}
+
+.center_main {
+    position: relative;
+}
+
+.center_main_1 {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    background: #00000057;
+    width: 40%;
+    padding: 30px 20px 45px 20px;
+}
+
+.center_main_1 h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.center_main_1 h2 {
+    color: #fff;
+}
+
+.center_main_1 p {
+    color: #eee;
+    margin-top: 0;
+}
+
+.center_main_1 h4 {
+    color: #eee;
+}
+
+
+/*********************center_home_end****************/
+
+
+/*********************service_home****************/
+
+#service_home {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.serv_hi h4 {
+    line-height: 1.4em;
+}
+
+.serv_hi h4 i {
+    color: #1b82ce;
+    font-size: 60px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+
+.serv_hi h4 span {
+    display: block;
+}
+
+.serv_hi {
+    border-right: 1px solid #ddd;
+}
+
+
+/*********************service_home_end****************/
+
+
+/*********************architect****************/
+
+#architect {
+    background: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+
+.archi_ili img {
+    width: 80%;
+}
+
+.archi_il {
+    position: relative;
+}
+
+.archi_ili1 h4 span {
+    color: #1b82ce;
+}
+
+.archi_ili1 p i {
+    margin-right: 5px;
+}
+
+.archi_ili1 {
+    background: #1a1a1a;
+    width: 60%;
+    padding: 20px 15px;
+    position: absolute;
+    bottom: -15%;
+    right: 0;
+}
+
+.archi_ir ul li i {
+    vertical-align: middle;
+    color: #1b82ce;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.archi_ir ul li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/*********************architect_end****************/
+
+
+/*********************project****************/
+
+#project {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #fafafa;
+}
+
+#project .quality_2_i2 {
+    padding-top: 210px;
+    display: block;
+    opacity: 1;
+    background: #0000005e;
+}
+
+#project .quality_2_i2 h4 {
+    display: none;
+}
+
+#project .quality_2_i:hover .quality_2_i2 h4 {
+    display: block;
+}
+
+
+/*********************project_end****************/
+
+
+/*********************award****************/
+
+#award {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+td,
+th {
+    border: 1px solid #eee;
+    text-align: left;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+
+/*********************award_end****************/
+
+
+/*********************process****************/
+
+#process {
+    background: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.process_2_mi {
+    background: #fff;
+    padding: 40px;
+}
+
+.process_2 {
+    margin-top: 30px;
+}
+
+.process_2_m {
+    position: relative;
+}
+
+.process_2_mi1 {
+    position: absolute;
+    width: 15%;
+    top: 15%;
+    left: -6%;
+}
+
+.process_2_mi1 h4 {
+    background: #1b82ce;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+
+.process_2_m {
+    width: 95%;
+}
+
+
+/*********************process_end****************/
+
+
+/*********************news****************/
+
+#news {
+    background: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.news_1 {
+    margin-top: 30px;
+}
+
+.news_1_i {
+    border: 1px solid #eee;
+    padding: 60px 20px;
+}
+
+.news_1_i:hover {
+    border-color: #1b82ce;
+}
+
+.news_1_i h4 i {
+    vertical-align: middle;
+}
+
+
+/*********************news_end****************/
+
+@media screen and (max-width: 767px) {
+    .center_home img {
+        min-height: 400px;
+    }
+    .center_main_1 {
+        width: 100%!important;
+        left: 0!important;
+        text-align: center;
+    }
+    .center_main_1 h1 {
+        font-size: 40px!important;
+    }
+    .center_main_1 h2 {
+        font-size: 30px!important;
+    }
+    .center_main_1 h3 {
+        font-size: 20px!important;
+    }
+    .serv_hi {
+        border: none;
+        float: left;
+        margin: 10px;
+    }
+    .serv_hi h4 i {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .archi_ili img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .archi_ili1 {
+        width: 100%;
+        text-align: center;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .archi_ir {
+        text-align: center;
+    }
+    #architect {
+        padding-bottom: 40px;
+    }
+    .award_1 {
+        text-align: center;
+    }
+    #process {
+        text-align: center;
+    }
+    .process_2_m {
+        width: 100%;
+    }
+    .process_2_mi1 {
+        left: 0;
+        width: 12%;
+    }
+    #project {
+        text-align: center;
+    }
+    #news {
+        text-align: center;
+    }
+    .news_1_i {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .center_home img {
+        min-height: 500px;
+    }
+    .center_main_1 h1 {
+        font-size: 40px;
+    }
+    .center_main_1 h3 {
+        font-size: 20px;
+    }
+    .serv_hi h4 i {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .archi_ili img {
+        min-height: 600px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1250px) {
+    .center_home img {
+        min-height: 500px;
+    }
+    .center_main_1 h1 {
+        font-size: 40px;
+    }
+    .center_main_1 h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1350px) {}

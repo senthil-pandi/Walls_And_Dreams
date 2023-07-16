@@ -1,0 +1,86 @@
+/*
+Template Name:Interior Hub
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/*********************contact****************/
+
+#contact_top {
+    margin-top: 55px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.detail_14 h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.detail_14 .form-control {
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: 50px;
+    font-size: 20px;
+    background: #fafafa;
+}
+
+.detail_14 .form_1 {
+    height: 150px;
+}
+
+#contact_last {
+    background: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact_last_2 {
+    margin-top: 40px;
+}
+
+.contact_last_2i h4 {
+    font-size: 24px;
+}
+
+.contact_last_2i hr {
+    border-color: #1b82ce;
+    border-width: 3px;
+    width: 13%;
+    margin-left: 0;
+}
+
+
+/*********************contact_end****************/
+
+@media screen and (max-width: 767px) {
+    #contact_top {
+        margin-top: 0;
+    }
+    .detail_14 {
+        text-align: center;
+        margin-top: 15px;
+    }
+    #contact_last {
+        text-align: center;
+    }
+    .contact_last_1r {
+        margin-top: 15px;
+    }
+    .contact_last_2i {
+        margin-bottom: 10px;
+    }
+    .contact_last_2i hr {
+        margin-left: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1200px) {}
+
+@media (min-width:1201px) and (max-width:1250px) {}
