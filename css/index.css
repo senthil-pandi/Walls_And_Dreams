@@ -11,6 +11,25 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 
 .mySlides {
     display: none;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+.vHome1 {
+    background-image: url("/img/vHome5.jpg");
+}
+
+.vHome2 {
+    background-image: url("/img/vhome3.JPG");
+}
+
+.vHome3 {
+    background-image: url("/img/vHome4.jpg");
 }
 
 .center_main {
@@ -137,7 +156,8 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 }
 
 #project .quality_2_i2 {
-    padding-top: 210px;
+    padding-top: 340px;
+    padding-left: 120px;
     display: block;
     opacity: 1;
     background: #0000005e;
@@ -149,6 +169,11 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 
 #project .quality_2_i:hover .quality_2_i2 h4 {
     display: block;
+}
+
+.kidsText {
+    position: relative;
+    top: 20;
 }
 
 
@@ -321,6 +346,28 @@ tr:nth-child(even) {
     }
     .news_1_i {
         margin-top: 10px;
+    }
+    .vHome1 {
+        background-image: url("/img/mHome1.jpg");
+    }
+    .vHome2 {
+        background-image: url("/img/mHome2.JPG");
+    }
+    .vHome3 {
+        background-image: url("/img/mHome3.png");
+    }
+    #project .quality_2_i2 {
+        padding-top: 420px;
+        padding-left: 10px;
+        display: block;
+        opacity: 1;
+        background: #0000005e;
+    }
+    #footer ul li {
+        padding-right: 6px;
+    }
+    #mobile {
+        padding-left: 1em;
     }
 }
 
